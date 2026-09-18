@@ -4,21 +4,21 @@ cask "tenet" do
 
   on_macos do
     on_arm do
-      sha256 "2cff84bb6bf16bc54d5483b3bb7788deef902897e1f608570abd0f1a52a72696"
+      sha256 "052c7524509447cefbd076ad4439e9daee172f7b7b9215085604a3fe1b1c3c43"
       url "https://github.com/zoidsh/tenet/releases/download/v#{version}/tenet_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "692dfd9ced7b08ef6e07d90f20fc2bd3595621afe98fa15b0ace9fa4dfb526e5"
+      sha256 "587d9a5cb32de01e53a5ca1b97ad37efcd7b882b911d73f711c75b6269810e10"
       url "https://github.com/zoidsh/tenet/releases/download/v#{version}/tenet_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f97373a8f3bfbc8819ff1bd1543bc6c777c6cef20c8caa0e80e9476a533e3c1a"
+      sha256 "b2aa6b36de0224d15f46edaa75c484b6e653da140e8936447bfb61a274895a09"
       url "https://github.com/zoidsh/tenet/releases/download/v#{version}/tenet_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "18fd3ff35704db0645f93d2e540087ca4e6a8d05db8dc38b10d7d0a695732717"
+      sha256 "af9e461ea96ca43c472d8f3b3ea0ac9856b3df649ff2ea6345d31014022446c7"
       url "https://github.com/zoidsh/tenet/releases/download/v#{version}/tenet_#{version}_linux_amd64.tar.gz"
     end
   end
